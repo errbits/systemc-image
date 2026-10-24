@@ -16,4 +16,7 @@ docker pull ghcr.io/errbits/systemc:2.3.3
 Platforms: `linux/amd64`, `linux/arm64`. Built with `-DCMAKE_CXX_STANDARD=17` —
 compile your code with `-std=c++17` too.
 
-SystemC is © Accellera Systems Initiative, Apache-2.0.
+## License
+
+Dockerfile and config © 2025–2026 ErrBits, all rights reserved. See [LICENSE](LICENSE).
+SystemC is © Accellera Systems Initiative, Apache-2.0 (license and notice in the image at `/opt/systemc/licenses/`).

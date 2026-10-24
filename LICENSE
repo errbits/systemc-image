@@ -1,0 +1,26 @@
+ErrBits SystemC Image — Licence
+
+Copyright (c) 2025–2026 ErrBits.
+All rights reserved.
+
+1. ErrBits files
+   The files in this repository (Dockerfile, workflows, README and other configuration) are
+   proprietary to ErrBits. You may read them and pull and run the published image
+   ghcr.io/errbits/systemc for completing ErrBits labs and for your own personal learning.
+   You may not copy, modify, republish, redistribute or reuse these files, or re-host or
+   rebrand the image, in any other course, training, product or service without prior
+   written authorisation from ErrBits.
+
+2. Third-party software in the image
+   The image contains third-party software under its own licences, which are not changed by
+   this licence and take precedence for that software:
+   - SystemC 2.3.3, (c) Accellera Systems Initiative, Apache License 2.0. Its LICENSE and
+     NOTICE files are included in the image at /opt/systemc/licenses/.
+   - Ubuntu packages (GCC, make, GDB, Git and others), each under its own licence, listed
+     in the image at /usr/share/doc/*/copyright.
+
+3. No warranty
+   Provided "as is", without warranty of any kind. The ErrBits Terms of Service
+   (https://errbits.com/terms.html) also apply.
+
+Permissions and licensing enquiries: legal@errbits.com
